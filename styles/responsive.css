@@ -1,0 +1,148 @@
+@media screen and (min-width: 360px) and (max-width:650px) {
+    .head__link-img {
+        display: inline-block;
+        width: 100px;
+    }
+
+    .head__link-list {
+        display: none;
+    }
+
+    /* Header main */
+    .head__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head__main img {
+        width: 450px;
+        margin: 0 20px 10px 10px;
+    }
+
+    .head-main__text-title h2 {
+        font-size: 50px;
+    }
+
+    .head-main__text-title p {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .head-main__text-button {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    /* Services */
+    .main__services-title h2 {
+        font-size: 50px;
+    }
+
+    .main__services-title p {
+        font-size: 18px;
+        padding-left: 5px;
+        color: #fff;
+    }
+
+    .main__services-panel {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .services__panel-apps {
+        margin-bottom: 10px;
+    }
+
+    .panel__apps-desc p {
+        color: #fff;
+    }
+    
+    .services__panel-desing {
+        margin-bottom: 10px;
+    }
+    
+    .panel__desing-desc p {
+        color: #fff;
+    }
+    
+    .services__panel-web {
+        margin-bottom: 10px;
+    }
+
+    .panel__web-desc p {
+        color: #fff;
+    }
+    
+    /* Proyects */
+    .main-proyects__appsweb-cont {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .appsweb__title {
+        margin-bottom: 10px;
+    }
+
+    /* .appsweb__title button */
+
+    .appsweb__title p {
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .appsweb__content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .appsweb__content-01 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .appsweb__content-01 button {
+        width: 100%;
+    }
+
+    .appsweb__content-02 {
+        width: 100%;
+    }
+
+    .appsweb__content-02 button {
+        width: 100%;
+    }
+
+    /* Information */
+    .cont {
+        width: 80%;
+    }
+
+    .cont h2 {
+        font-size: 50px;
+    }
+
+    .cont p {
+        font-size: 18px;
+        margin-bottom: -20px;
+    }
+
+    .info__container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .info__container-button {
+        width: 100%;
+    }
+
+    /* footer */
+    .foot {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
